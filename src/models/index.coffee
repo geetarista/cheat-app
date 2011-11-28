@@ -2,7 +2,6 @@ util = require 'util'
 mongoose = require 'mongoose'
 require('mongoose-types').loadTypes mongoose
 fs = require 'fs'
-_s = require 'underscore.string'
 
 models = fs.readdirSync(__dirname)
 
