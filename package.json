@@ -5,13 +5,14 @@
     "test": "vows test/commands/*-test.js test/*-test.js --isolate --spec",
     "start": "server.js"
   },
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Robby Colvin <geetarista@gmail.com>",
   "repository": {
     "type": "git",
     "url": "http://github.com/geetarista/cheat-app.git"
   },
   "dependencies": {
+    "coffee-script": "1.1.3",
     "colors": "0.x.x",
     "express": "2.5.1",
     "mongoose": "2.3.13",
